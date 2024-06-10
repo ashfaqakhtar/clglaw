@@ -1,0 +1,32 @@
+DirectoryIndex index.php
+# Begin EnforceSSL keepingcapital.com
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?clglawpc.com$
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+# End EnforceSSL
+
+# Begin EnforceSSL keepingcapital.com
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?keepingcapital.com$
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L]
+</IfModule>
+# End EnforceSSL
+
+
+# Begin EnforceSSL efficientmoney.com
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?efficientmoney.com$
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L]
+</IfModule>
+# End EnforceSSL
+
