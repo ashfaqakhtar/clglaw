@@ -41,7 +41,7 @@ include "header.php";
                             attorneys. Creditor Law Group will step in at any point in your case for a free consultation
                             to find out how to help YOU–in or out of court. Even if you’ve already had your wages
                             garnished, received a default judgment, received a summons, or missed your court date in a
-                            debt collection lawsuit–call us to find out how we can help.
+                            debt collection lawsuit–call us to find out how we can help..
                         </p>
                         <a type="button" href="contact"
                             class="btn bg-transparent button-outline-accent rounded-0 font-1">FREE CONSULTATION</a>
